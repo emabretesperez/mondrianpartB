@@ -1,9 +1,15 @@
 function setup() {
 createCanvas(800, 800);
-background(248, 245, 234);
-noStroke(); 
+ 
 
+}
 
+function draw() {
+  background(248, 245, 234);
+  noStroke();
+
+  let tremor1 = random(-4, 4);
+let tremor2 = random(-4, 4);
 
 //vermelho
 fill(229, 26, 19);
@@ -22,7 +28,7 @@ stroke(51);
 strokeWeight(12);
 
 
-line(width/2-33,0,width/2-33,height);
+line(width/2-33 + tremor1, 0, width/2-33 + tremor1, height);
 
 strokeWeight(17);
 
@@ -35,7 +41,7 @@ line(0,height/2+118.04,width,height/2+118.04);
 strokeWeight(12);
 
 //lINHA 4 - HORIZONTAL 3
-line(width/2-33, height/2+355.69, 614, height/2+355.69);
+line(width/2-33 + tremor1, height/2+355.69, 614 + tremor2, height/2+355.69);
 
 //LINHA 5 - VERTICAL 2
 line(width/2+214, height, width/2+214, width/2+118.04);
