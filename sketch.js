@@ -21,9 +21,7 @@ rect(366.54,height/2+118.04,width/2-150,247);
 stroke(51);
 strokeWeight(12);
 
-//LINHA 1 - VERTICAL CENTRAL
-//x = centro - 33, y1 vai do topo (0) y2 ao fundo (height)
-//line(x1, y1, x2, y2)
+
 line(width/2-33,0,width/2-33,height);
 
 strokeWeight(17);
