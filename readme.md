@@ -1,4 +1,4 @@
-# Perte B Mondrian
+# mondrianpartB
 
 ## Parte 2 - Movimento com random
 
